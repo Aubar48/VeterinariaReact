@@ -1,4 +1,5 @@
-import {Paciente} from "./formulario"
+import { Paciente } from "../context/PacientesContext"
+
 
 export const PacienteCard=({
     paciente: {mascota,duenio,raza,email},
